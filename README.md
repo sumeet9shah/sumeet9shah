@@ -10,24 +10,12 @@ I build things where IAM and AI meet: securing access, auditing behaviour, and k
 
 ---
 
-## Projects by Area
+## Where My Projects Live
 
-| Area | Project | Key tools |
-|---|---|---|
-| AI Security & IAM | [Secure AI Gateway](https://github.com/sumeet9shah/secure-ai-gateway) | FastAPI, Keycloak, Ollama |
-| Network Security | [Network Security Labs](https://github.com/sumeet9shah/network-security-labs) | Nmap, Wireshark, Kali Linux |
-
-### AI Security & IAM
-
-**[Secure AI Gateway](https://github.com/sumeet9shah/secure-ai-gateway)**: a self-hosted gateway between users and a local LLM. Each prompt is authenticated via Keycloak (JWT RS256), checked against roles, scored by a pattern-based detection engine mapped to MITRE ATLAS, then blocked or forwarded. Role-specific SOC-style dashboards show audit logs and blocked prompts.
-
-`Python` `FastAPI` `Keycloak` `JWT` `PostgreSQL` `Ollama` `Streamlit`
-
-### Network Security
-
-**[Network Security Labs](https://github.com/sumeet9shah/network-security-labs)**
-- [TCP scan analysis](https://github.com/sumeet9shah/network-security-labs/tree/main/labs/01-nmap-wireshark-tcp-analysis): compared connect and SYN scans packet by packet
-- [HTTP traffic analysis](https://github.com/sumeet9shah/network-security-labs/tree/main/labs/02-nmap-wireshark-http-analysis): showed how credentials leak over unencrypted HTTP and how to prevent it
+| | Area | What you will find |
+|:---:|:---:|---|
+| <img src="icons/ai-security.svg" width="48" alt=""> | [**AI Security & IAM**](https://github.com/sumeet9shah/secure-ai-gateway) | A security gateway for a local LLM with Keycloak login, role-based access, prompt injection blocking and audit logs<br>`Python` `FastAPI` `Keycloak` `PostgreSQL` `Ollama` `Streamlit` |
+| <img src="icons/network.svg" width="48" alt=""> | [**Network Security**](https://github.com/sumeet9shah/network-security-labs) | Hands-on labs on [TCP scan analysis](https://github.com/sumeet9shah/network-security-labs/tree/main/labs/01-nmap-wireshark-tcp-analysis) and [credential exposure over HTTP](https://github.com/sumeet9shah/network-security-labs/tree/main/labs/02-nmap-wireshark-http-analysis)<br>`Nmap` `Wireshark` `Kali Linux` |
 
 ---
 
