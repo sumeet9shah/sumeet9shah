@@ -31,4 +31,4 @@ I build things where IAM and AI meet: securing access, auditing behaviour, and k
 
 ## Reach me
 
-[linkedin.com/in/sumeet-dharmesh-shah](https://linkedin.com/in/sumeet-dharmesh-shah) · sumeet9shah@gmail.com
+[linkedin.com/in/sumeet-dharmesh-shah](https://linkedin.com/in/sumeet-dharmesh-shah)
