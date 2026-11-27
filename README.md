@@ -19,13 +19,16 @@ I build things where IAM and AI meet: securing access, auditing behaviour, and k
 
 ---
 
-## Background
+## Tech stack
 
-- **IAM** — CyberArk, ForgeRock, Active Directory, RBAC, JML lifecycle, privileged access management
-- **Security Ops** — Splunk, Grafana, incident response, audit and compliance (ISO 27001, NIS2)
-- **Automation** — Python, Ansible, Bash
-- **Backend** — FastAPI, PostgreSQL
-- **AI/ML** — YOLOv8, CNNs, NLP, LLM security
+**Languages** :- Python, shell scripting  
+**Backend** :- FastAPI, PostgreSQL, Streamlit  
+**Identity** :- Keycloak, Active Directory, OpenLDAP, RBAC, joiner and leaver processes  
+**PAM** :- CyberArk operations, One Identity Safeguard, session recording, password rotation  
+**Automation** :- Ansible, Grafana, ServiceNow, Jira  
+**AI/ML** :- YOLOv8, CNNs, computer vision, NLP, retrieval-augmented generation, LLM security, Ollama, TinyLlama, regression models, scikit-learn, pandas, NumPy  
+**Network** :- Nmap, Wireshark, Kali Linux  
+**Familiar** :- ForgeRock, Splunk
 
 ---
 
